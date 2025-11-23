@@ -34,12 +34,12 @@ You can add one or more Pynote tags (same type or different types) in a single H
 
 ### PYNOTE TAGS
 
-**Empty Python editor** - demo
+**Empty Python editor** - [demo](https://getpynote/demo-1.html)
 ```html
 <pynote></pynote>
 ```
 
-**Editor + code** - demo
+**Editor + code** - [demo](https://getpynote/demo-2.html)
 ```html
 <pynote>
 name = 'pynote'
@@ -47,12 +47,12 @@ print(name)
 </pynote>
 ```
 
-**Editor + Python file** (.py file, either a file hosted on the server or a file loaded from a URL) - demo
+**Editor + Python file** (.py file, either a file hosted on the server or a file loaded from a URL) - [demo](https://getpynote/demo-3.html)
 ```html
 <pynote src="https://domain.net/code.py"></pynote>
 ```
 
-**Jupyter Notebooks** (with editors) (.ipynb file, either a file hosted on the server or a file loaded from a URL) - demo
+**Jupyter Notebooks** (with editors) (.ipynb file, either a file hosted on the server or a file loaded from a URL) - [demo](https://getpynote/demo-4.html)
 ```html
 <pynote src="https://domain.net/notebook.ipynb"></pynote>
 ```
@@ -61,6 +61,6 @@ print(name)
 ```html
 <pynote src="https://domain.net/notebook.ipynb" packages="requests" files="" readonly="true" ></pynote>
 ```
-* `packages` : list of packages to install (names separated by commas) - demo
-* `files` : URLs to be added to the Python filesystem for import or manipulation (comma-separated) - demo
-* `readonly` : read-only editor (false by default) - demo
+* `packages` : list of packages to install (names separated by commas) - [demo](https://getpynote/demo-5.html)
+* `files` : URLs to be added to the Python filesystem for import or manipulation (comma-separated) - [demo](https://getpynote/demo-6.html)
+* `readonly` : read-only editor (false by default) - [demo](https://getpynote/demo-7.html)
